@@ -1,36 +1,65 @@
-<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .primary { fill: #0F2744; }
-    .accent { fill: #D4A437; }
-    .text { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
-    .subtext { font-family: Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: 4px; }
-  </style>
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Kleinstadt-Silhouette -->
-  <g class="primary">
-    <rect x="180" y="70" width="55" height="50" rx="2"/>
-    <polygon points="175,70 207,45 240,70"/>
+  <!-- Kleinstadt -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">
 
-    <rect x="250" y="60" width="70" height="60" rx="2"/>
-    <polygon points="245,60 285,30 325,60"/>
+    <!-- Haus links -->
+    <polygon points="250,120 290,85 330,120"/>
+    <rect x="255" y="120" width="70" height="50"/>
+
+    <!-- Haus Mitte -->
+    <polygon points="340,110 395,70 450,110"/>
+    <rect x="347" y="110" width="96" height="60"/>
 
     <!-- Kirchturm -->
-    <rect x="340" y="45" width="28" height="75"/>
-    <polygon points="354,15 338,45 370,45"/>
+    <rect x="470" y="85" width="30" height="85"/>
+    <polygon points="485,45 465,85 505,85"/>
 
-    <rect x="385" y="75" width="45" height="45" rx="2"/>
-    <polygon points="380,75 407,52 435,75"/>
+    <!-- Haus rechts -->
+    <polygon points="520,120 555,92 590,120"/>
+    <rect x="525" y="120" width="60" height="50"/>
+
   </g>
 
-  <!-- Grundlinie -->
-  <path d="M140 130 Q300 115 470 130" stroke="#0F2744" stroke-width="5" fill="none"/>
+  <!-- Bodenlinie -->
+  <path
+    d="M200 185 Q450 155 700 185"
+    stroke="#C9A34E"
+    stroke-width="5"
+    fill="none"
+    stroke-linecap="round"
+  />
 
-  <!-- Logo Text -->
-  <text x="130" y="185" class="text primary" font-size="64">
-    dieWohn<tspan class="accent">helden</tspan>
+  <!-- Firmenname -->
+  <text
+    x="120"
+    y="245"
+    font-family="Montserrat, Arial, sans-serif"
+    font-size="68"
+    font-weight="500"
+    fill="#FFFFFF">
+    dieWohn
   </text>
 
-  <text x="210" y="210" class="subtext primary" font-size="18">
+  <text
+    x="430"
+    y="245"
+    font-family="Montserrat, Arial, sans-serif"
+    font-size="68"
+    font-weight="700"
+    fill="#C9A34E">
+    helden
+  </text>
+
+  <!-- Untertitel -->
+  <text
+    x="255"
+    y="272"
+    font-family="Montserrat, Arial, sans-serif"
+    font-size="18"
+    letter-spacing="6"
+    fill="#BDBDBD">
     KURZZEITVERMIETUNG
   </text>
+
 </svg>
