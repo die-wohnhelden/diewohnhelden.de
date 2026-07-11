@@ -1,21 +1,36 @@
-<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="goldGradient" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fff8d6"/>
-      <stop offset="50%" stop-color="#d4af37"/>
-      <stop offset="100%" stop-color="#b8860b"/>
-    </radialGradient>
-  </defs>
+<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .primary { fill: #0F2744; }
+    .accent { fill: #D4A437; }
+    .text { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
+    .subtext { font-family: Arial, Helvetica, sans-serif; font-weight: 300; letter-spacing: 4px; }
+  </style>
 
-  <!-- Hintergrund -->
-  <circle cx="150" cy="150" r="140" fill="#0f1f2f"/>
+  <!-- Kleinstadt-Silhouette -->
+  <g class="primary">
+    <rect x="180" y="70" width="55" height="50" rx="2"/>
+    <polygon points="175,70 207,45 240,70"/>
 
-  <!-- Goldener Kreis -->
-  <circle cx="150" cy="150" r="120" fill="none" stroke="url(#goldGradient)" stroke-width="12"/>
+    <rect x="250" y="60" width="70" height="60" rx="2"/>
+    <polygon points="245,60 285,30 325,60"/>
 
-  <!-- Monogramm W -->
-  <text x="50%" y="57%" text-anchor="middle" font-size="150" font-family="Georgia, serif"
-        fill="url(#goldGradient)" font-weight="bold">
-    W
+    <!-- Kirchturm -->
+    <rect x="340" y="45" width="28" height="75"/>
+    <polygon points="354,15 338,45 370,45"/>
+
+    <rect x="385" y="75" width="45" height="45" rx="2"/>
+    <polygon points="380,75 407,52 435,75"/>
+  </g>
+
+  <!-- Grundlinie -->
+  <path d="M140 130 Q300 115 470 130" stroke="#0F2744" stroke-width="5" fill="none"/>
+
+  <!-- Logo Text -->
+  <text x="130" y="185" class="text primary" font-size="64">
+    dieWohn<tspan class="accent">helden</tspan>
+  </text>
+
+  <text x="210" y="210" class="subtext primary" font-size="18">
+    KURZZEITVERMIETUNG
   </text>
 </svg>
