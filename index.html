@@ -3,54 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Die Wohnhelden – Professionelle Kurzzeitvermietung von Zimmern</title>
+    <title>Die Wohnhelden – Kurzzeitvermietung von Zimmern</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; color: #333; }
-        header { background: #1a1a1a; color: white; padding: 40px 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 36px; }
-        nav { background: #333; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .section { padding: 40px 20px; max-width: 900px; margin: auto; }
-        .card { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-        footer { background: #1a1a1a; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; color: #333; }
+        header { background: #0f1f2f; color: white; padding: 60px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 42px; letter-spacing: 1px; }
+        header p { font-size: 18px; margin-top: 10px; }
+
+        nav { background: #142738; padding: 12px; text-align: center; }
+        nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: bold; }
+
+        .container { max-width: 1100px; margin: auto; padding: 40px 20px; }
+
+        .section-title { font-size: 28px; margin-bottom: 20px; }
+
+        .card { background: white; padding: 25px; border-radius: 10px; 
+                box-shadow: 0 3px 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
+
+        .features li { margin-bottom: 10px; }
+
+        footer { background: #0f1f2f; color: white; text-align: center; padding: 20px; margin-top: 40px; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Die Wohnhelden</h1>
-    <p>Professionelle Kurzzeitvermietung von Zimmern – flexibel, sauber, zuverlässig.</p>
+    <p>Professionelle Kurzzeitvermietung von Zimmern in Neumarkt – flexibel, sauber, zuverlässig.</p>
 </header>
 
 <nav>
     <a href="index.html">Startseite</a>
+    <a href="zimmer.html">Zimmer & Ausstattung</a>
+    <a href="preise.html">Preise</a>
+    <a href="kontakt.html">Kontakt</a>
     <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
 </nav>
 
-<div class="section">
-    <h2>Unsere Mission</h2>
-    <div class="card">
-        <p>Wir bieten kurzfristig verfügbare, vollständig ausgestattete Zimmer für Handwerker, Monteure, Geschäftsreisende und alle, die eine flexible und professionelle Unterkunft benötigen.</p>
-    </div>
+<div class="container">
 
-    <h2>Warum Die Wohnhelden?</h2>
+    <h2 class="section-title">Warum Die Wohnhelden?</h2>
     <div class="card">
-        <ul>
-            <li>✔ Saubere, gepflegte Zimmer</li>
-            <li>✔ Flexible Buchungszeiträume</li>
-            <li>✔ Faire Preise</li>
+        <ul class="features">
+            <li>✔ Saubere, gepflegte Zimmer mit moderner Ausstattung</li>
+            <li>✔ Flexible Buchungszeiträume – ideal für Handwerker & Monteure</li>
+            <li>✔ Faire Preise ohne versteckte Kosten</li>
             <li>✔ Schnelle und unkomplizierte Abwicklung</li>
-            <li>✔ Perfekt für kurzfristige Einsätze</li>
+            <li>✔ Perfekte Lage in Neumarkt</li>
         </ul>
     </div>
 
-    <h2>Kontakt</h2>
+    <h2 class="section-title">Unsere Zimmer</h2>
+    <div class="card">
+        <p>Unsere Zimmer sind vollständig ausgestattet und sofort bezugsfertig.  
+        Ideal für kurzfristige Einsätze, Montagearbeiten oder Geschäftsreisen.</p>
+        <p><a href="zimmer.html">→ Zimmer & Ausstattung ansehen</a></p>
+    </div>
+
+    <h2 class="section-title">Kontakt</h2>
     <div class="card">
         <p><strong>E-Mail:</strong> info@diewohnhelden.de</p>
         <p><strong>Telefon:</strong> 09181 / 123456</p>
         <p><strong>Standort:</strong> Neumarkt in der Oberpfalz</p>
     </div>
+
 </div>
 
 <footer>
