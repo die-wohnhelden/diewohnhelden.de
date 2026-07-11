@@ -1,0 +1,21 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="goldGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d6"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Hintergrund -->
+  <circle cx="150" cy="150" r="140" fill="#0f1f2f"/>
+
+  <!-- Goldener Kreis -->
+  <circle cx="150" cy="150" r="120" fill="none" stroke="url(#goldGradient)" stroke-width="12"/>
+
+  <!-- Monogramm W -->
+  <text x="50%" y="57%" text-anchor="middle" font-size="150" font-family="Georgia, serif"
+        fill="url(#goldGradient)" font-weight="bold">
+    W
+  </text>
+</svg>
